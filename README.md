@@ -1,4 +1,4 @@
-# sortarray
+
 import java.util.*;
 
 class Point {
@@ -20,4 +20,6 @@ public class Main {
                 return Integer.compare(p2.y, p1.y); // y descending if x equal
             }
         });
+         for (Point p : points) {
+            System.out.println(p.x + " " + p.y);
         
