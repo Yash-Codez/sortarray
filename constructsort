@@ -1,0 +1,24 @@
+import java.util.*;
+
+public class Solution {
+    static class Pair {
+        long v;
+        int i;
+
+        Pair(long v, int i) {
+            this.v = v;
+            this.i = i;
+        }
+    }
+
+   
+
+            Arrays.sort(nums, Comparator.comparingLong(p -> p.v));
+
+            Arrays.sort(nums, Comparator.comparingInt(p -> p.i));
+            for (Pair pair : nums) {
+                System.out.print(pair.v + " ");
+            }
+           
+       
+}
