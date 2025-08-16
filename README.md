@@ -1,4 +1,4 @@
-
+Arrays.sort(nums, Comparator.comparingLong(Pair::v));
 import java.util.*;
 
 class Point {
